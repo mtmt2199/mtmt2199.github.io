@@ -1,8 +1,3 @@
-title: Blogging Like a Hacker
-
-# h1要素
-これはテストです
-
 ## h2要素
 これは実験です
 
