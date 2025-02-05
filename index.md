@@ -2,11 +2,10 @@
 layout: default
 ---
 
-## Header 2
+## このサイトについて
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+「なっくるすきるす」はGithub Pagesを使った静的HTMLのホームページです。  
+SNSやブログのハブとして活用してきます。
 
 ### Header 3
 
