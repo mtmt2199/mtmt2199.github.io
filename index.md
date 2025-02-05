@@ -7,6 +7,8 @@ layout: default
 「なっくるすきるす」はGithub Pagesを使った静的HTMLのホームページです。  
 SNSやブログのハブとして活用してきます。
 
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
 ### Header 3
 
 ```js
