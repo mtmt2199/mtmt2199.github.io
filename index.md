@@ -4,7 +4,7 @@ layout: default
 
 ## なっくるすきるす
 
-「なっくるすきるす」はGithub Pagesを使った静的HTMLのホームページです。  
+「なっくるすきるす」はGithub Pagesを使った静的HTMLの個人ホームページです。  
 SNSやブログのハブとして活用してきます。
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
