@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## なっくるすきるす
+## なっくるすきるす(Knuckle Skills)
 
 「なっくるすきるす」はGithub Pagesを使った静的HTMLの個人ホームページです。  
 SNSやブログのハブとして活用してきます。
