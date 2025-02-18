@@ -9,28 +9,13 @@ SNSやブログのハブとして活用してきます。
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-### Header 3
+### このスペースは…
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+Githubアカウントは2014年に作っていましたが、Github Pagesを活用し始めたのは、わりと最近です。
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### さて、どう使っていきましょうか。
 
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+歌ってみたやショート動画など、チャレンジしたい分野はいろいろありますが、今はそんなことより、自己破産を真剣にすすめないと。
 
 ##### Header 5
 
