@@ -82,17 +82,17 @@
     <script>
       // ブラウザの表示幅によって表示内容を変える
       var width = window.innerWidth;
+
       if (width > 1220) {
+        var contwidth = 200;
+        var data = '<p><a href="table.html">PC専用コンテンツ（PCでごらんください)</a></p>';
         if (width > 1630) {
-          document.write('<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; width: 610px;position: fixed;top: 0; right: 0;">');
-          document.write('<iframe src="https://soundbook.web.fc2.com/" width="600" height="315" frameborder="0" allowfullscreen></iframe>');
-          document.write('</div>');
-        } else {
-          document.write('<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; width: 200px;position: fixed;top: 0; right: 0;">');
-          document.write('<p>もう一つ別に、ホームページを作成中です。<br>FC2ホームページです。<br><a href="https://soundbook.web.fc2.com/" target=top>https://soundbook.web.fc2.com/</a></p>');
-          document.write('<p>このGithub Pagesが無くなることは当面は無いと思っていますが、以前この「なっくるすきるす」は、割と大手のホスティングサービスだったのにいきなりサービス終了！にて消滅してしまったので、そういう事態を避けるため、コンテンツの分散を考えています。</p>');
-          document.write('</div>');
+          var contwidth = 610;
+          var data = '<iframe src="table.html" width="605" height="780" frameborder="0" allowfullscreen></iframe>';
         }
+        document.write('<div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; margin-bottom: 16px; width: ' + contwidth + 'px;position: fixed;top: 0; right: 0;">');
+        document.write(data);
+        document.write('</div>');
       }
     </script>
   
