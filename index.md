@@ -79,6 +79,14 @@
       <li>医療控除の手続き。エクセルに仮入力は終わったけど、コレに交通費をつけて、先の手続きに進まないとイケナイ。</li>
     </ol>
 
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
     <script>
       // ブラウザの表示幅によって表示内容を変える
       var width = window.innerWidth;
