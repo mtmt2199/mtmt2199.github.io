@@ -1,23 +1,3 @@
-<body>
-<div class="wrapper">
-  <header>
-    <h1 class="header">なっくるすきるす</h1>
-    <p class="header"></p>
-
-    <ul>
-      
-      <li><a class="buttons github" href="https://github.com/mtmt2199/mtmt2199.github.io">View On GitHub</a></li>
-    </ul>
-
-    
-
-    
-      <ul>
-        <li><a class="buttons github" href="https://github.com/mtmt2199">GitHub Profile</a></li>
-      </ul>
-    
-  </header>
-
   <section>
     <h2 id="なっくるすきるす">なっくるすきるす</h2>
 
@@ -69,13 +49,3 @@
   
   
   </section>
-
-
-
-<footer>
-  <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-</footer>
-</div>
-<!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
-</body></html>
