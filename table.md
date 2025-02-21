@@ -3,96 +3,12 @@ layout: post
 title:  "全記事リスト"
 ---
 
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-- test
-
+**全記事リスト**
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a style="color: #C30000;" href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
