@@ -5,7 +5,7 @@ title:  "テンプレートテスト！"
 
 ## テンプレートテスト！
 
-<a href="#" onclick="history.back(); return false;">戻る</a> 
+ [戻る]({{ site.url }}) 
 
 テストです。
 
