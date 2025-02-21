@@ -1,6 +1,6 @@
 ## 全記事一覧
 
-test
+全記事一覧です。
 
 <ul>
   {% for post in site.posts %}
