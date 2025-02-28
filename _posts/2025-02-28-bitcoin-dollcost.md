@@ -1,9 +1,10 @@
+-Table of Content
+{:toc}
+
 --- 
 layout: default
 title:  "毎日100円で未来を拓く？ ビットコイン「ほぼ100円つみたて」の魔法"
 ---
--Table of Content
-{:toc}
 
 ## {{ page.title }}
 
