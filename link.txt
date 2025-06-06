@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTMLファイル読み込み</title>
+    <title>HTMLファイル自動読み込み</title>
 </head>
 <body>
-    <h1>別ファイルの内容を表示します</h1>
+    <h1>別ファイルの内容を自動で表示します</h1>
     <div id="content">
         </div>
 
-    <button onclick="loadAnotherHtml()">別のHTMLを読み込む</button>
-
     <script>
-        function loadAnotherHtml() {
+        // ページが完全に読み込まれたときにこの関数が実行されます
+        window.onload = function() {
             const contentDiv = document.getElementById('content');
             const fileName = 'another.html'; // 同一階層にあるHTMLファイル名
 
@@ -31,7 +30,7 @@
                     console.error('HTMLファイルの読み込み中にエラーが発生しました:', error);
                     contentDiv.innerHTML = '<p>ファイルの読み込みに失敗しました。</p>';
                 });
-        }
+        };
     </script>
 </body>
 </html>
