@@ -10,9 +10,9 @@ SNSやブログのハブとして活用してきます。
 Githubアカウントは2014年に作っていましたが、Github Pagesを活用し始めたのは、わりと最近です。  
 「なっくるすきるす」は同じ2014年に開設したホームページの名前です。それ以前はFC2ブログでした。ホスティングサービスの終了後しばらく消滅していましたが、Github Pagesに復活です。
 
-### リンク集
+### 超個人的リンク集
 
-<a href="https://soundbook.web.fc2.com/link.html">リンク集はこちらです</a>
+<a href="https://soundbook.web.fc2.com/link.html">超個人的リンク集はこちらです</a>
 
 ### 最新記事
 
