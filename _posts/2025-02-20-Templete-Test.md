@@ -3,7 +3,7 @@ layout: default
 title:  "テンプレートテスト！"
 ---
 
-## テンプレートテスト！
+## {{ page.title }}
 
  [戻る]({{ site.url }}) 
 
