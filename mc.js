@@ -13,7 +13,7 @@ const mainDiv = document.getElementById('main');
 // 3. 要素が存在するか確認し、存在すれば内容を置き換え
 if (mainDiv) {
 // innerHTMLを使って、HTMLコンテンツを新しい内容に置き換えます
-mainDiv.innerHTML = '<h2>✨ JavaScriptによって内容が置き換えられました！</h2><p>このテキストは、外部JSファイルによって挿入されました。</p>';
+mainDiv.innerHTML = '<table border=1 width=1324><tr><td>test</td></tr></table><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p><p>test<br></p>';
 
 // （おまけ）スタイルも変更してみる
 mainDiv.style.backgroundColor = '#f0fff0';
