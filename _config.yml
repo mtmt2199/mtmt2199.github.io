@@ -1,2 +1,4 @@
 title: なっくるすきるす
 theme: jekyll-theme-dinky
+plugins:
+  - jekyll-sitemap
