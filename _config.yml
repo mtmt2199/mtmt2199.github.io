@@ -1,0 +1,6 @@
+title: なっくるすきるす
+theme: jekyll-theme-dinky
+url: "https://mtmt2199.github.io"
+plugins:
+  - jekyll-sitemap
+  
