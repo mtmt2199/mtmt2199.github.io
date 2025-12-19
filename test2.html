@@ -1,22 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <body>
-  <h1>Config更新日チェック</h1>
+  <h1>Config更新チェック</h1>
   
-  <p id="date-display">読み込み中...</p>
+  <div id="display">確認中...</div>
 
   <script>
-    // ブラウザでは fs.statSync の代わりに fetch を使います
-    fetch('config.txt', { method: 'HEAD' })
+    fetch('config.txt', { method: 'HEAD', cache: 'no-cache' })
       .then(response => {
-        // 更新日を取得
-        const lastModified = response.headers.get('Last-Modified');
-        
-        // 画面に表示（console.log の代わりに HTMLを書き換える）
-        document.getElementById('date-display').innerText = "更新日: " + lastModified;
+        if (!response.ok) throw new Error("ファイルが見つかりません");
+
+        // 1. 更新日を取得
+        const lastModifiedStr = response.headers.get('Last-Modified');
+        const lastModified = new Date(lastModifiedStr);
+        const today = new Date();
+
+        // 2. 日数の差分を計算
+        const diffTime = today - lastModified;
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+        const displayArea = document.getElementById('display');
+
+        // 3. 条件分岐
+        if (diffDays >= 80) {
+          // 80日以上の場合
+          displayArea.style.color = "red";
+          displayArea.innerHTML = `<strong>【エラー】80日以上更新されていません</strong><br>(最終更新: ${lastModified.toLocaleDateString()} / 経過: ${diffDays}日)`;
+        } else {
+          // 80日以内の場合
+          displayArea.style.color = "green";
+          displayArea.innerText = "更新日: " + lastModified.toLocaleDateString() + "（経過: " + diffDays + "日）";
+        }
       })
       .catch(err => {
-        document.getElementById('date-display').innerText = "エラー: ファイルが見つかりません";
+        document.getElementById('display').innerText = "エラー: " + err.message;
       });
   </script>
 </body>
