@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Config更新日チェック</h1>
+  
+  <p id="date-display">読み込み中...</p>
+
+  <script>
+    // ブラウザでは fs.statSync の代わりに fetch を使います
+    fetch('config.txt', { method: 'HEAD' })
+      .then(response => {
+        // 更新日を取得
+        const lastModified = response.headers.get('Last-Modified');
+        
+        // 画面に表示（console.log の代わりに HTMLを書き換える）
+        document.getElementById('date-display').innerText = "更新日: " + lastModified;
+      })
+      .catch(err => {
+        document.getElementById('date-display').innerText = "エラー: ファイルが見つかりません";
+      });
+  </script>
+</body>
+</html>
