@@ -1,3 +1,2 @@
 User-agent: *
-Disallow:
 Sitemap: https://mtmt2199.github.io/sitemap.xml
