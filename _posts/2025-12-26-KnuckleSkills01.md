@@ -1,6 +1,6 @@
 --- 
-layout: default
-title:  "test：test"
+layout:default
+title:"test：test"
 ---
 
 ## {{ page.title }}
