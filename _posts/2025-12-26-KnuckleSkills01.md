@@ -1,6 +1,6 @@
 --- 
 layout:default
-title:Knuckle Skills: The Art of Strengthening and Protecting Your Hands
+title:"Knuckle Skills" The Art of Strengthening and Protecting Your Hands
 ---
 
 ## {{ page.title }}
