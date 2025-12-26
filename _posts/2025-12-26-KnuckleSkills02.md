@@ -1,6 +1,6 @@
 --- 
 layout: default
-title:  "The Deep Abyss of the Knuckleball: Baseball's Ultimate Unpredictable Pitching Art"
+title:  "The Deep Abyss of the Knuckleball Skills: Baseball's Ultimate Unpredictable Pitching Art"
 ---
 
 ## {{ page.title }}
