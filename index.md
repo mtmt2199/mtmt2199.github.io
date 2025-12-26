@@ -12,7 +12,7 @@ Githubアカウントは2014年に作っていましたが、Github Pagesを活�
 
 ### 超個人的リンク集
 
-<a href="https://soundbook.web.fc2.com/">超個人的リンク集はこちらです</a><br>
+<a href="https://soundbook.web.fc2.com/" target=top>　超個人的リンク集はこちらです</a><br>
 <a href="https://mtmt2199.github.io/sitemap.xml">サイトマップ</a>
 
 ### 最新記事
