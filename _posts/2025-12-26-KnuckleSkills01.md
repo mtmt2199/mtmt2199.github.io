@@ -8,7 +8,7 @@ title:  "Knuckle Skills: The Art of Strengthening and Protecting Your Hands"
  [戻る]({{ site.url }}) 
 
 
-In the world of martial arts and combat sports, your hands are your primary tools. However, the human hand is a complex structure of small bones not naturally designed to strike hard objects. This is where "Knuckle Skills" (ナックル・スキルス) come into play.
+In the world of martial arts and combat sports, your hands are your primary tools. However, the human hand is a complex structure of small bones not naturally designed to strike hard objects. This is where **"Knuckle Skills" (ナックル・スキルス)** come into play.
 
 Knuckle skills refer to the methodology of conditioning the fists (body hardening) and mastering the technical alignment required to deliver powerful strikes without sustaining self-injury, such as the infamous "Boxer’s Fracture."
 
