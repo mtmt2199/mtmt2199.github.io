@@ -2,7 +2,6 @@
 
 「なっくるすきるす(Knuckle Skills)」は、Github Pagesを使った静的HTMLの個人ホームページです。  
 SNSやブログのハブとして活用してきます。  
-テスト
 
 <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" alt="Octocat" />
 
