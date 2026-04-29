@@ -1,4 +1,21 @@
-A:hover {
+body {
+  /* 背景色を白に設定 (bgcolor=#ffffff) */
+  background-color: #ffffff;
+  /* 文字色も指定しておくと親切です */
+  color: #333333; 
+}
+
+/* 未訪問のリンク (link=#0000ff) */
+a:link {
+  color: #0000ff;
+}
+
+/* 訪問済みのリンク (vlink=#0000ff) */
+a:visited {
+  color: #0000ff;
+}
+
+a:hover {
 color: #ff0000;
 }
 
@@ -15,26 +32,17 @@ color: #ff0000;
 	line-height: 13pt;
 	}
 
+.container {
+  display: grid;
+  grid-template-columns: 340px; /* スマホでは横幅いっぱい */
+  gap: 0px;
+  padding: 0px; /* 画面端の余白 */
+}
 
-.text
-	{
-	font-size: 12pt;
-	line-height: 21pt;
-	}
-.bar
-	{
-	font-size: 10pt;
-	line-height: 16pt;
-	}
-.title
-	{
-	font-size: 21pt;
-	border-style: solid;
-	border-color: #0000ff;
-	border-width: 0 0 8 22;
-	}
-.image
-	{
-	font-size: 12pt;
-	line-height: 40pt
-	}
+@media (min-width: 610px) {
+  .container {
+    grid-template-columns: 392px 210px;
+    justify-content: center; 
+  }
+}
+
